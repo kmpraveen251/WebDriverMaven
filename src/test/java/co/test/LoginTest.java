@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-    @Test
+    /*@Test
     public void doLogin() {
         System.out.println(driver.getTitle());
-    }
+    }*/
 
     @Test
     public void test(){

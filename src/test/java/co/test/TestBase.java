@@ -15,18 +15,18 @@ public class TestBase {
 
     @BeforeSuite
     public void setUp(){
-        if(driver==null){
+        /*if(driver==null){
             WebDriverManager.chromedriver().setup();
             ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("headless");
             driver = new ChromeDriver(chromeOptions);
             driver.get("http://www.gmail.com");
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        }
+        }*/
     }
     @AfterSuite
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 }
