@@ -9,4 +9,9 @@ public class LoginTest extends TestBase {
         System.out.println(driver.getTitle());
     }
 
+    @Test
+    public void test(){
+        System.out.println("Hi my second test");
+    }
+
 }
